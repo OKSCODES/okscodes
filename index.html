@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Osea Kordor Sitkhain | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Firebase SDKs -->
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
+</head>
+<body>
+  <header>
+    <img src="profile.jpg" alt="Osea Kordor Sitkhain" class="profile-pic" />
+    <h1>Osea Kordor Sitkhain</h1>
+    <p>BCA Graduate | Freelance Web Developer</p>
+    <div class="header-controls">
+      <a href="#contact" class="btn">Hire Me</a>
+      <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+    </div>
+  </header>
+  
+  
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a passionate web developer who just completed BCA. I specialize in building modern, responsive websites using HTML, CSS, and JavaScript. I'm looking for freelance opportunities where I can build impactful digital solutions for clients.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>Responsive Design</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Fill out the form below to tell me about your project:</p>
+    <form action="#" method="POST">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="budget">Estimated Budget</label>
+      <input type="text" id="budget" name="budget" placeholder="e.g., $200 - $500" />
+
+      <label for="timeline">Project Deadline</label>
+      <input type="text" id="timeline" name="timeline" placeholder="e.g., 2 weeks" />
+
+      <label for="project">Project Requirements</label>
+      <textarea id="project" name="project" rows="5" placeholder="Describe the features, pages, and style you're looking for..." required></textarea>
+
+      <input type="hidden" name="_redirect" value="https://yourdomain.com/thank-you.html" />
+
+      <button type="submit" class="btn">Send Details</button>
+    </form>
+
+    <p>Email: <a href="mailto:oseasitkhain@gmail.com">o.k.sitkhain@gmail.com</a></p>
+    <p>Phone: <a href="tel:+917005621407">+91-7005621407</a></p>
+    <p>Location: Sohra, Meghalaya</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Osea Kordor Sitkhain. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <SCript src="script1.js"></SCript>
+</body>
+</html>
